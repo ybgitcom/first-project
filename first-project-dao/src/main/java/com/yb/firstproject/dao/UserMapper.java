@@ -2,8 +2,9 @@ package com.yb.firstproject.dao;
 
 import com.yb.firstproject.domain.User;
 import com.yb.firstproject.domain.UserExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
